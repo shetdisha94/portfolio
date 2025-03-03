@@ -1,0 +1,21 @@
+{
+  "name": "portfolio",
+  "private": true,
+  "description": "My portfolio",
+  "version": "1.0.0",
+  "keywords": [
+    "portfolio"
+  ],
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "author": "@shetdisha94",
+  "devDependencies": {
+    "husky": "^8.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  }
+}
