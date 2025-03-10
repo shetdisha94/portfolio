@@ -1,5 +1,6 @@
 <template>
-  <h2>Welcome</h2>
+  <UiProfileIntro />
+  <UiMyProjects />
 </template>
 
 <script setup lang="ts">
