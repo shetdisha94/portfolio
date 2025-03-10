@@ -1,90 +1,80 @@
-@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@400;700&display=swap');
+@import 'tailwindcss';
+@import './variables.css';
+@import './theme.css';
 
-
-:root {
-  --ff-primary: "Open Sans", sans-serif;
-  --ff-secondary: "Roboto", sans-serif;
+html {
+  scroll-behavior: smooth;
 }
 
-
-@theme {
-  /* Background Colors */
-  --color-bg-primary: #fffaeb;
-  --color-bg-secondary: #f7d06e;
-  --color-bg-light: #fceec5; 
-  --color-bg-lighter: #f8e3a5;
-
-  /* Text Colors */
-  --color-text-primary: #102a42;
-  --color-text-secondary: #617d98;
-  --color-text-light: #bcccdc; 
-  --color-text-lighter: #f1f5f8;
-
-  /* Border Colors */
-  --color-border-primary: #617d98;
-  --color-border-secondary: #324d67;
-  --color-border-light: #829ab0;
-
-  /* Primary Palette */
-  --color-primary-darkest: #513c06;
-  --color-primary-darker: #7a5c10;
-  --color-primary-dark: #a27c1a;
-  --color-primary-medium: #c8992d;
-  --color-primary-light: #e9b949;
-  --color-primary-lighter: #f7d06e;
-  --color-primary-lightest: #fffaeb;
-
-  /* Grayscale Palette */
-  --color-grey-darkest: #102a42;
-  --color-grey-darker: #243a52;
-  --color-grey-dark: #324d67;
-  --color-grey-medium: #617d98;
-  --color-grey-light: #bcccdc;
-  --color-grey-lightest: #f1f5f8;
-
-  /* Utility Colors */
-  --color-overlay-light: rgba(255, 255, 255, 0.7); /* Utility for light mode */
+body {
+  font-family: var(--font-primary);
+  background: var(--color-white);
+  color: var(--color-grey-1);
+  line-height: 1.5;
+  font-size: 0.875rem;
 }
 
-.dark {
-  /* Font Families (Stay the same in dark mode) */
-  --ff-primary: "Open Sans", sans-serif;
-  --ff-secondary: "Roboto", sans-serif;
+ul {
+  list-style-type: none;
+}
 
-  /* Background Colors */
-  --color-bg-primary: #102a42;
-  --color-bg-secondary: #243a52;
-  --color-bg-light: #1e2b3d; /* Matching darker tones */
-  --color-bg-lighter: #0c1e31;
+a {
+  text-decoration: none;
+}
 
-  /* Text Colors */
-  --color-text-primary: #fffaeb;
-  --color-text-secondary: #bcccdc;
-  --color-text-light: #a6c0cf; /* Added lighter text for dark mode */
-  --color-text-lighter: #f0f7fb;
+h1,
+h2,
+h3,
+h4 {
+  letter-spacing: var(--spacing);
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+  font-family: var(--font-primary);
+}
 
-  /* Border Colors */
-  --color-border-primary: #324d67;
-  --color-border-secondary: #243a52;
-  --color-border-light: #4c6479; /* All relevant colors now included */
+h1 {
+  font-size: 3rem;
+}
 
-  /* Primary Palette */
-  --color-primary-darkest: #3c2e04;
-  --color-primary-darker: #5c430a;
-  --color-primary-dark: #806117;
-  --color-primary-medium: #a87e26;
-  --color-primary-light: #d6a23e;
-  --color-primary-lighter: #f4c759;
-  --color-primary-lightest: #fff9e0;
+h2 {
+  font-size: 2rem;
+}
 
-  /* Grayscale Palette */
-  --color-grey-darkest: #0c1e31;
-  --color-grey-darker: #1e2b3d;
-  --color-grey-dark: #2a3a4d;
-  --color-grey-medium: #4c6479;
-  --color-grey-light: #a6c0cf;
-  --color-grey-lightest: #f0f7fb;
+h3 {
+  font-size: 1.25rem;
+}
 
-  /* Utility Colors */
-  --color-overlay-dark: rgba(0, 0, 0, 0.7); 
+h4 {
+  font-size: 0.875rem;
+}
+
+p {
+  margin-bottom: 1.25rem;
+  color: var(--color-grey-5);
+}
+
+@media screen and (min-width: 800px) {
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 1.75rem;
+  }
+  h4 {
+    font-size: 1rem;
+  }
+  body {
+    font-size: 1rem;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    line-height: 1;
+  }
 }
