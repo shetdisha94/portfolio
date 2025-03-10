@@ -1,3 +1,4 @@
+
 @theme {
   /* dark shades of primary color*/
   --color-primary-1: #513c06;
@@ -14,7 +15,6 @@
   --color-primary-8: #f8e3a5;
   --color-primary-9: #fceec5;
   --color-primary-10: #fffaeb;
-  --color-primary-11: #ffffff;
 
   /* darkest grey - used for headings */
   --color-grey-1: #102a42;
@@ -30,11 +30,11 @@
   --color-grey-9: #dae2ec;
   --color-grey-10: #f1f5f8;
 
-  --color-primary-brand: #e9b949;
 
-  /* red used for gradient */
-  --color-gradient-1: #ef645e;
+  --color-primary-brand: #e9b949;
+  --breakpoint-xs: 30rem;
 }
+
 
 .dark {
   /* Dark shades of primary color */
@@ -52,7 +52,6 @@
   --color-primary-8: #1e2b3d;
   --color-primary-9: #243346;
   --color-primary-10: #243a52; /* Base color for the dark theme */
-  --color-primary-11: #16181d; /* Darkest shade for text */
 
   /* Light grey - used for headings */
   --color-grey-1: #f1f1f1;
@@ -65,11 +64,9 @@
   --color-grey-6: #c5c5c5;
   --color-grey-7: #bcbcbc;
   --color-grey-8: #b3b3b3;
-  --color-grey-9: #23272f;
-  --color-grey-10: #102a42;
+  --color-grey-9: #aaaaaa;
+  --color-grey-10: #a1a1a1;
 
-  --color-primary-brand: #ffd700;
 
-  /* blue used for gradient */
-  --color-gradient-1: #3b4738;
+  --color-primary-brand: #f7d06e;
 }
