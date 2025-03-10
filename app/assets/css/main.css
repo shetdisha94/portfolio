@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@400;700&display=swap');
-@import 'tailwindcss';
-@import './variables.css';
-@import './theme.css';
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@400;700&display=swap");
+@import "tailwindcss";
+@import "./variables.css";
+@import "./theme.css";
 
 html {
   scroll-behavior: smooth;
@@ -10,7 +10,7 @@ html {
 body {
   font-family: var(--font-primary);
   background: var(--color-white);
-  color: var(--color-grey-1);
+  color: var( --color-grey-1);
   line-height: 1.5;
   font-size: 0.875rem;
 }
@@ -32,6 +32,7 @@ h4 {
   line-height: 1.25;
   margin-bottom: 0.75rem;
   font-family: var(--font-primary);
+  font-weight: 700;
 }
 
 h1 {
