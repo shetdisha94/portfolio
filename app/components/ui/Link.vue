@@ -29,7 +29,7 @@ const props = defineProps({
 
 const typeClasses = computed(() => {
   return props.type === "primary"
-    ? "bg-primary-4 hover:bg-primary-5"
+    ? "bg-primary-4 hover:bg-primary-6"
     : "bg-grey-6 hover:bg-grey-7 text-white";
 });
 </script>

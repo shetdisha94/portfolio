@@ -1,0 +1,34 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Campaign Craze",
+      "description": "Campaign Craze provides a comprehensive view of influencer content within campaigns, offering a visually engaging and data-rich experience. Our platform features the 'Post Details Component,' showcasing an image carousel (or single image display) for captivating visuals, detailed influencer information (profile picture, name, and handle), and a user-friendly post date format. Delve deeper into campaign performance with insightful post metrics, presented as easily digestible data points including impressions, reach, and engagement percentages, all within a sleek, responsive grid. To optimize performance and enhance user experience, Campaign Craze utilizes dynamic lazy loading for infinite scrolling, ensuring images load seamlessly as the user scrolls. This design guarantees a smooth and efficient experience across various screen sizes, providing a clear and insightful view of influencer campaign performance.",
+      "image": "https://raw.githubusercontent.com/shetdisha94/mock-front-data/refs/heads/main/project-screnshots/campaign-craze.png",
+      "stack": ["HTML", "CSS", "JavaScript", "React"],
+      "links": {
+        "github": "https://github.com/example/portfolio-website",
+        "liveDemo": "https://example-portfolio.com"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Portfolio Website",
+      "description": "My portfolio website is more than just a collection of projects; it's a digital narrative of my journey as a Frontend Developer, a story told in code and design. Designed with a sleek, contemporary aesthetic, it invites you to explore my skills, experience, and the passion that fuels my work. Interactive elements and a responsive layout ensure a captivating experience on any device, while the visually engaging interface makes navigating my projects a pleasure. Experience the flexibility of switching between light and dark themes, showcasing my ability to implement dynamic styling and cater to user preferences. This website is a reflection of my dedication to crafting impactful and user-centric digital experiences, built on a robust architecture that highlights my technical capabilities and creative vision.",
+      "image": "https://raw.githubusercontent.com/shetdisha94/mock-front-data/refs/heads/main/project-screnshots/Portfolio.png",
+      "stack": [
+        "Vue.js",
+        "Tailwind",
+        "Nuxt.js",
+        "TypeScript",
+        "Server-Side Rendering (SSR)",
+        "Client-Side Rendering (CSR)",
+        "SEO"
+      ],
+      "links": {
+        "github": "https://github.com/rameskum/ecommerce-admin",
+        "liveDemo": "https://ecommerce-admin.computerbyte.in"
+      }
+    }
+  ]
+}

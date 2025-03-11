@@ -18,7 +18,7 @@
         </div>
       </article>
       <article
-        class="hidden md:flex justify-center items-center w-full px-20 transform sm:scale-140 lg:scale-150 xl:scale-170"
+        class="hidden md:flex justify-center items-center w-full px-20 transform sm:scale-120 lg:scale-140 xl:scale-160"
       >
         <HelloGirlSvg />
       </article>
@@ -27,7 +27,7 @@
 </template>
 
 <script setup lang="ts">
-import HelloGirlSvg from "~/assets/icons/svg/HelloGirlSvg.vue";
+import HelloGirlSvg from '~/assets/icons/svg/HelloGirlSvg.vue';
 </script>
 
 <style scoped>
