@@ -2,7 +2,7 @@
   <div class="@container/profile bg-primary-10">
     <div class="max-w-6xl mx-auto min-h-custom flex px-12 sm:px-20 pb-20">
       <article class="flex min-h-custom flex-col justify-center w-full">
-        <UiUnderline color="bg-primary-brand" />
+        <UiUnderline color="bg-primary-5" />
         <h1>I'm Disha</h1>
         <h4 class="text-grey-5">
           Frontend <span class="xs:hidden">Dev</span>

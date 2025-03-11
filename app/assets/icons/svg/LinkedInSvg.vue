@@ -1,6 +1,6 @@
 <template>
   <svg
-    class="text-grey-1 hover:text-primary-5 transition-all duration-300 ease-in-linear"
+    class="text-grey-1 hover:text-primary-4 transition-all duration-300 ease-in-linear"
     stroke="currentColor"
     fill="currentColor"
     stroke-width="0"

@@ -9,27 +9,27 @@
 </template>
 
 <script setup lang="ts">
-import { computed, defineProps } from 'vue';
+import { computed, defineProps } from "vue";
 
 const props = defineProps({
   type: {
     type: String,
-    default: 'primary',
-    validator: (value: string) => ['primary', 'secondary'].includes(value),
+    default: "primary",
+    validator: (value: string) => ["primary", "secondary"].includes(value),
   },
   label: {
     type: String,
-    default: '',
+    default: "",
   },
   to: {
     type: String,
-    default: '',
+    default: "",
   },
 });
 
 const typeClasses = computed(() => {
-  return props.type === 'primary'
-    ? 'bg-primary-brand hover:bg-primary-7'
-    : 'bg-grey-6 hover:bg-grey-7 text-white';
+  return props.type === "primary"
+    ? "bg-primary-4 hover:bg-primary-5"
+    : "bg-grey-6 hover:bg-grey-7 text-white";
 });
 </script>
