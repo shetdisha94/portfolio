@@ -47,7 +47,6 @@
               />
             </article>
           </div>
-          <!-- {{ data.projects }} -->
         </template>
       </div>
     </div>
@@ -55,10 +54,8 @@
 </template>
 
 <script setup>
-const { status, data: projectsInfo } = await useFetch("/projects.json", {
+const { status, data: projectsInfo } = await useFetch('/projects.json', {
   lazy: true,
   server: false,
 });
-console.log(projectsInfo.projects);
-console.log(status);
 </script>

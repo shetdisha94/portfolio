@@ -13,7 +13,7 @@
       </h3>
     </a>
     <p class="text-grey-3">
-      {{ project.description }}{{ project.description }}
+      {{ project.description }}
     </p>
     <div class="mb-4">
       <ul>
