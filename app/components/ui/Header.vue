@@ -26,14 +26,14 @@
 </template>
 
 <script setup>
-import { NuxtLink } from "#components";
-import LogoSvg from "~/assets/icons/svg/LogoSvg.vue";
+import { NuxtLink } from '#components';
+import LogoSvg from '~/assets/icons/svg/LogoSvg.vue';
 
 const menus = ref([
-  { name: "Home", to: "/" },
-  { name: "About", to: "/about" },
-  { name: "Projects", to: "/projects" },
-  { name: "Contact", to: "/contact" },
+  { name: 'Home', to: '/' },
+  { name: 'About', to: '/about' },
+  { name: 'Projects', to: '/projects' },
+  { name: 'Contact', to: '/contact' },
 ]);
 </script>
 

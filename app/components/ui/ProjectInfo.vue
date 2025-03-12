@@ -12,8 +12,11 @@
         {{ project.title }}
       </h3>
     </a>
-    <p class="text-grey-3">
+    <p class="text-grey-3 mb-4">
       {{ project.description }}
+    </p>
+    <p class="text-grey-3 mb-4">
+      {{ project.details }}
     </p>
     <div class="mb-4">
       <ul>
@@ -43,8 +46,8 @@
 </template>
 
 <script setup lang="ts">
-import GitHubSvg from "~/assets/icons/svg/GitHubSvg.vue";
-import LiveDemoSvg from "~/assets/icons/svg/LiveDemoSvg.vue";
+import GitHubSvg from '~/assets/icons/svg/GitHubSvg.vue';
+import LiveDemoSvg from '~/assets/icons/svg/LiveDemoSvg.vue';
 
 defineProps({
   project: {
