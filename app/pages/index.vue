@@ -1,6 +1,7 @@
 <template>
   <div>
     <UiProfileIntro />
+    <UiAboutIntro />
     <UiMyProjects />
   </div>
 </template>

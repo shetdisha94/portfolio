@@ -18,7 +18,7 @@
         </div>
       </article>
       <article
-        class="hidden md:flex justify-center items-center w-full px-20 transform sm:scale-120 lg:scale-140 xl:scale-160"
+        class="hidden md:flex justify-center items-center w-full transform xs:scale-90 sm:scale-100 lg:scale-120 xl:scale-140"
       >
         <HelloGirlSvg />
       </article>
