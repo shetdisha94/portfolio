@@ -1,6 +1,6 @@
 <template>
-  <article class="bg-primary-10 p-20">
-    <div class="">
+  <article class="bg-primary-10 py-16 md:py-20">
+    <div class="py-20">
       <div class="mb-16 text-center">
         <h2
           class="text-grey-1 text-4xl leading-none tracking-[0.25rem] mb-3 capitalize"
@@ -11,7 +11,7 @@
           Latest applications I developed as fun projects and self learning.
         </p>
       </div>
-      <div class="max-w-6xl mx-auto">
+      <div class="mx-10 md:mx-20 lg:mx-40">
         <p v-if="error">Something went wrong. Please try again later.</p>
 
         <template v-else-if="projectsInfo">
@@ -21,7 +21,7 @@
           >
             <section class="grid grid-cols-12 mb-16 items-center relative">
               <div
-                class="row-start-1 col-span-full h-[32rem] p-16 bg-gradient-to-bl from-primary-6 to-gradient-1 rounded-md shadow-lg"
+                class="row-start-1 col-span-full h-[32rem] p-8 md:p-16 bg-gradient-to-bl from-primary-6 to-gradient-1 rounded-md shadow-lg"
                 :class="
                   index % 2 === 0
                     ? 'md:col-start-1 md:col-span-8'
@@ -31,7 +31,7 @@
                 <img
                   :alt="project.title"
                   :src="project.image"
-                  class="w-full h-full hover:opacity-100 object-fill"
+                  class="w-full h-full hover:opacity-100 object-fit"
                 />
               </div>
               <UiProjectInfo

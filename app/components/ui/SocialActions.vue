@@ -8,10 +8,7 @@
       rel="noopener noreferrer"
       class="text-gray-500 hover:text-gray-900 transition-colors duration-300"
     >
-      <component
-        :is="social.icon"
-        class="w-6 h-6"
-      />
+      <component :is="social.icon" class="w-6 h-6" />
     </NuxtLink>
   </div>
 </template>
@@ -27,10 +24,10 @@ import InstagramSvg from '~/assets/icons/svg/InstagramSvg.vue';
 const socialLinks = computed(() => [
   {
     name: 'LinkedIn',
-    url: 'https://www.linkedin.com/in/your-profile',
+    url: 'https://www.linkedin.com/in/dishashet/',
     icon: LinkedInSvg,
   },
-  { name: 'GitHub', url: 'https://github.com/your-profile', icon: GitHubSvg },
+  { name: 'GitHub', url: 'https://github.com/shetdisha94/', icon: GitHubSvg },
   {
     name: 'Twitter',
     url: 'https://twitter.com/your-profile',
@@ -38,12 +35,12 @@ const socialLinks = computed(() => [
   },
   {
     name: 'Facebook',
-    url: 'https://facebook.com/your-profile',
+    url: 'https://www.facebook.com/disha.shet.5',
     icon: FacebookSvg,
   },
   {
     name: 'Instagram',
-    url: 'https://instagram.com/your-profile',
+    url: 'https://www.instagram.com/d_craft_store/',
     icon: InstagramSvg,
   },
 ]);
