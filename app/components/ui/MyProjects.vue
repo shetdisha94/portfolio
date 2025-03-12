@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-primary-10 p-20">
+  <article class="bg-primary-10 p-20">
     <div class="">
       <div class="mb-16 text-center">
         <h2
@@ -12,16 +12,14 @@
         </p>
       </div>
       <div class="max-w-6xl mx-auto">
-        <p v-if="status === 'pending'">Loading...</p>
-        <p v-if="status === 'error'">
-          Something went wrong. Please try again later.
-        </p>
-        <template v-if="status === 'success'">
+        <p v-if="error">Something went wrong. Please try again later.</p>
+
+        <template v-else-if="projectsInfo">
           <div
             v-for="(project, index) in projectsInfo?.projects"
             :key="project.id"
           >
-            <article class="grid grid-cols-12 mb-16 items-center relative">
+            <section class="grid grid-cols-12 mb-16 items-center relative">
               <div
                 class="row-start-1 col-span-full h-[32rem] p-16 bg-gradient-to-bl from-primary-6 to-gradient-1 rounded-md shadow-lg"
                 :class="
@@ -30,7 +28,6 @@
                     : 'md:col-start-5 md:col-span-8'
                 "
               >
-                <!-- <h1>Image</h1> -->
                 <img
                   :alt="project.title"
                   :src="project.image"
@@ -45,17 +42,19 @@
                     : 'md:col-start-1 md:col-span-8'
                 "
               />
-            </article>
+            </section>
           </div>
         </template>
+        <p v-else>Loading...</p>
       </div>
     </div>
-  </section>
+  </article>
 </template>
 
 <script setup>
-const { status, data: projectsInfo } = await useFetch('/projects.json', {
+const { error, data: projectsInfo } = await useFetch('/projects.json', {
   lazy: true,
   server: false,
+  key: 'data-fetch',
 });
 </script>
