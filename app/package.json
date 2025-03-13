@@ -6,8 +6,10 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "preview": "nuxt preview",
+    "preview": "pnpm run build && wrangler pages dev",
     "postinstall": "nuxt prepare",
+    "deploy": "pnpm run build && wrangler pages deploy",
+    "cf-typegen": "wrangler types",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
@@ -22,6 +24,10 @@
     "@nuxt/eslint": "^1.1.0",
     "eslint": "^9.21.0",
     "typescript": "^5.8.0",
-    "nuxt-ssr-lit": "1.6.29"
+    "nuxt-ssr-lit": "1.6.29",
+    "h3": "^1.15.1",
+    "@cloudflare/workers-types": "^4.20250311.0",
+    "nitro-cloudflare-dev": "^0.2.2",
+    "wrangler": "^3.114.1"
   }
 }
