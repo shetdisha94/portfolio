@@ -39,6 +39,9 @@ importers:
       eslint:
         specifier: ^9.21.0
         version: 9.22.0(jiti@2.4.2)
+      h3:
+        specifier: ^1.15.1
+        version: 1.15.1
       nitro-cloudflare-dev:
         specifier: ^0.2.2
         version: 0.2.2
@@ -4756,6 +4759,9 @@ packages:
   vue-component-type-helpers@2.2.8:
     resolution: {integrity: sha512-4bjIsC284coDO9om4HPA62M7wfsTvcmZyzdfR0aUlFXqq4tXxM1APyXpNVxPC8QazKw9OhmZNHBVDA6ODaZsrA==}
 
+  vue-component-type-helpers@3.0.0-alpha.2:
+    resolution: {integrity: sha512-dv9YzsuJFLnpRNxKU0exwIlCIA/v+rXrgCsEtaENsFJLPFMw1Sr4IRctilwfjnjCzoJGgGACHRZfxo6ZwlH2fQ==}
+
   vue-devtools-stub@0.1.0:
     resolution: {integrity: sha512-RutnB7X8c5hjq39NceArgXg28WZtZpGc3+J16ljMiYnFhKvd8hITxSWQSQ5bvldxMDU6gG5mkxl1MTQLXckVSQ==}
 
@@ -6427,7 +6433,7 @@ snapshots:
       ts-dedent: 2.2.0
       type-fest: 2.19.0
       vue: 3.5.13(typescript@5.8.2)
-      vue-component-type-helpers: 2.2.8
+      vue-component-type-helpers: 3.0.0-alpha.2
 
   '@stylistic/eslint-plugin@4.2.0(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2)':
     dependencies:
@@ -10022,6 +10028,8 @@ snapshots:
       typescript: 5.8.2
 
   vue-component-type-helpers@2.2.8: {}
+
+  vue-component-type-helpers@3.0.0-alpha.2: {}
 
   vue-devtools-stub@0.1.0: {}
 
