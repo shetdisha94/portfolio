@@ -12,7 +12,7 @@
         <p class="text-grey-5 mt-4">
           If you are looking to get a hold of me, you can drop me a message:
         </p>
-        <ul class="p-4 pl-0">
+        <ul class="p-4">
           <li class="flex items-center gap-3 p-1">
             <EmailSvg />
             <a
@@ -25,7 +25,9 @@
           </li>
         </ul>
 
-        <p>You can also reach out to me on any social media below.</p>
+        <p class="mt-4">
+          You can also reach out to me on any social media below.
+        </p>
       </template>
     </UiBaseSection>
   </section>

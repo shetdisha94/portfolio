@@ -15,7 +15,7 @@
         <UiUnderline color="bg-primary-5 mb-2" />
         <slot name="content"></slot>
         <slot name="default"></slot>
-        <div class="mt-10">
+        <div class="py-5 text-center align-middle">
           <UiSocialActions />
         </div>
       </section>

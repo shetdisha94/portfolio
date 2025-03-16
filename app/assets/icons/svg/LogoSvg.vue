@@ -1,6 +1,6 @@
 <template>
   <svg
-    class="stroke-grey-1 hover:stroke-primary-brand w-12 h-12 cursor-pointer transition-all duration-300 ease-linear"
+    class="stroke-grey-1 hover:stroke-primary-5 w-12 h-12 cursor-pointer transition-all duration-300 ease-linear"
     stroke="black"
     fill="none"
     viewBox="0 0 84 96"

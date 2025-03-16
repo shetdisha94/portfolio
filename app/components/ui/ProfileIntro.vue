@@ -5,7 +5,7 @@
         <UiUnderline color="bg-primary-5" />
         <h1>I'm Disha</h1>
         <h4 class="text-grey-5">
-          Frontend <span class="xs:hidden">Dev</span>
+          Software <span class="xs:hidden">Dev</span>
           <span class="hidden xs:inline-block">Developer</span> By Passion
         </h4>
 
