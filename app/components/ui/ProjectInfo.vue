@@ -1,13 +1,13 @@
 <template>
   <div
-    class="absolutue row-start-2 col-span-full md:row-start-1 z-10 shadow-lg rounded-md px-8 py-4 bg-theme"
+    class="absolutue row-start-2 col-span-full md:row-start-1 z-10 shadow-lg rounded-md p-8 pt-4 bg-theme"
   >
     <span class="inline-block text-lg mb-3 text-primary-5"
       >{{ project.id }}.</span
     >
     <a class="no-underline" href="">
       <h3
-        class="!text-lg mb-6 leading-normal !uppercase cursor-pointer text-grey-1 hover:text-primary-brand transition-all duration-300"
+        class="!text-lg mb-6 leading-normal !uppercase cursor-pointer text-grey-1 hover:text-primary-4 transition-all duration-300"
       >
         {{ project.title }}
       </h3>
@@ -29,7 +29,7 @@
         </li>
       </ul>
     </div>
-    <ul class="flex flex-row items-center gap-2">
+    <ul class="flex flex-row items-center gap-2 mt-8">
       <li v-for="(link, key) in project.links" :key="key" class="">
         <NuxtLink
           :key="key"

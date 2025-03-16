@@ -1,5 +1,5 @@
 <template>
-  <article class="bg-primary-10 py-16 md:py-20">
+  <article class="bg-primary-10 py-8 mpy-20">
     <div class="py-20">
       <div class="mb-16 text-center">
         <h2
@@ -18,10 +18,11 @@
           <div
             v-for="(project, index) in projectsInfo?.projects"
             :key="project.id"
+            class="project-item"
           >
             <section class="grid grid-cols-12 mb-16 items-center relative">
               <div
-                class="row-start-1 col-span-full h-[32rem] p-8 md:p-16 bg-gradient-to-bl from-primary-6 to-gradient-1 rounded-md shadow-lg"
+                class="row-start-1 col-span-full h-[18rem] sm:h-[32rem] py-8 sm:pt-16 sm:py-0 px-8 sm:px-16 bg-gradient-to-bl from-primary-6 to-gradient-1 rounded-md shadow-lg"
                 :class="
                   index % 2 === 0
                     ? 'md:col-start-1 md:col-span-8'
@@ -31,7 +32,7 @@
                 <img
                   :alt="project.title"
                   :src="project.image"
-                  class="w-full h-full hover:opacity-100 object-fit"
+                  class="w-full h-full hover:opacity-100 object-fill"
                 />
               </div>
               <UiProjectInfo
@@ -58,3 +59,9 @@ const { error, data: projectsInfo } = await useFetch('/projects.json', {
   key: 'data-fetch',
 });
 </script>
+
+<style scoped>
+.project-item:not(:last-child) {
+  margin-bottom: 4rem;
+}
+</style>

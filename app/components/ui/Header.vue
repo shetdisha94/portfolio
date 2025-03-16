@@ -9,8 +9,8 @@
         <li v-for="menu in menus" :key="menu.name" class="hidden sm:block">
           <NuxtLink
             :to="menu.to"
-            class="tracking-[.25rem] font-bold capitalize transition-all duration-300 hover:text-primary-brand cursor-pointer"
-            :class="{ 'text-primary-brand': $route.path === menu.to }"
+            class="tracking-[.25rem] font-bold capitalize transition-all duration-300 hover:text-primary-4 cursor-pointer"
+            :class="{ 'text-primary-4': $route.path === menu.to }"
           >
             {{ menu.name }}
           </NuxtLink>

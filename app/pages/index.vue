@@ -3,6 +3,7 @@
     <UiProfileIntro />
     <UiAboutIntro />
     <UiMyProjects />
+    <UiLetsConnect />
   </div>
 </template>
 
