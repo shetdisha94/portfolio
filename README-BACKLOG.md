@@ -9,6 +9,7 @@
 
 Home page About Projects Activities
 unit tests
+store analytics key securely
 
 # learning
 
