@@ -4,9 +4,13 @@
  */
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "portfolio",
+  "name": "",
+  "main": "./.output/server/index.mjs",
   "compatibility_date": "2025-03-11",
-  "pages_build_output_dir": "./dist",
+  "assets": {
+    "binding": "ASSETS",
+    "directory": "./.output/public/"
+  },
   "observability": {
     "enabled": true
   }
