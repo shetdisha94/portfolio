@@ -1,10 +1,10 @@
 <template>
-  <article class="bg-primary-10 min-h-custom py-16 md:py-20">
+  <article class="bg-primary-10 min-h-custom px-8 py-18">
     <div
-      class="max-w-6xl mx-auto grid grid-rows-2 md:grid-rows-none md:grid-cols-2 gap-x-12 gap-y-8 px-12 sm:px-20 py-20"
+      class="max-w-6xl mx-auto grid md:grid-rows-none md:grid-cols-2 gap-x-12 gap-y-8"
     >
       <figure
-        class="flex justify-center items-center w-full px-4 transform xs:scale-90 sm:scale-100 lg:scale-110 xl:scale-120"
+        class="flex justify-center items-center transform xs:scale-90 sm:scale-100 lg:scale-110 xl:scale-120"
       >
         <slot name="illustration"></slot>
       </figure>
@@ -15,7 +15,7 @@
         <UiUnderline color="bg-primary-5 mb-2" />
         <slot name="content"></slot>
         <slot name="default"></slot>
-        <div class="py-5 text-center align-middle">
+        <div class="mt-10">
           <UiSocialActions />
         </div>
       </section>

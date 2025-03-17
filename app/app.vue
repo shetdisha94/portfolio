@@ -8,7 +8,7 @@
 import { NuxtLayout } from '#components';
 
 useHead({
-  title: 'Disha Frontend Developer',
+  title: 'Disha Software Developer',
   meta: [
     {
       name: 'description',

@@ -1,5 +1,5 @@
 <template>
-  <article class="bg-primary-10 py-8 mpy-20">
+  <article class="bg-primary-10 px-8 py-20">
     <div class="py-20">
       <div class="mb-16 text-center">
         <h2
@@ -11,7 +11,7 @@
           Latest applications I developed as fun projects and self learning.
         </p>
       </div>
-      <div class="mx-10 md:mx-20 lg:mx-40">
+      <div class="max-w-6xl mx-auto">
         <p v-if="error">Something went wrong. Please try again later.</p>
 
         <template v-else-if="projectsInfo">

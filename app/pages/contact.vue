@@ -1,6 +1,6 @@
 <template>
   <section>
-    <UiBaseSection heading="Contact">
+    <BaseSection heading="Contact">
       <template #illustration>
         <ContactMeGirlSvg />
       </template>
@@ -29,11 +29,12 @@
           You can also reach out to me on any social media below.
         </p>
       </template>
-    </UiBaseSection>
+    </BaseSection>
   </section>
 </template>
 
 <script setup lang="ts">
+import BaseSection from '~/components/ui/BaseSection.vue';
 import ContactMeGirlSvg from '~/assets/icons/svg/ContactMeGirlSvg.vue';
 import EmailSvg from '~/assets/icons/svg/EmailSvg.vue';
 </script>
