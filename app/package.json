@@ -8,7 +8,7 @@
     "generate": "nuxt generate",
     "preview": "pnpm run build && wrangler pages dev",
     "postinstall": "nuxt prepare",
-    "deploy": "pnpm run build && wrangler pages deploy",
+    "deploy": "pnpm run build && wrangler deploy",
     "cf-typegen": "wrangler types",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
