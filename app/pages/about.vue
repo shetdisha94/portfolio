@@ -1,6 +1,6 @@
 <template>
   <section>
-    <UiBaseSection heading="About Me">
+    <BaseSection heading="About Me">
       <template #illustration>
         <AboutMeGirlSvg />
       </template>
@@ -22,10 +22,11 @@
           <UiLink label="Resume" type="primary" to="/contact" />
         </div>
       </template>
-    </UiBaseSection>
+    </BaseSection>
   </section>
 </template>
 
 <script setup lang="ts">
+import BaseSection from '~/components/ui/BaseSection.vue';
 import AboutMeGirlSvg from '~/assets/icons/svg/AboutMeGirlSvg.vue';
 </script>
