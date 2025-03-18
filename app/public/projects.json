@@ -8,8 +8,8 @@
       "image": "https://raw.githubusercontent.com/shetdisha94/mock-front-data/refs/heads/main/project-screnshots/campaign-craze.png",
       "stack": ["HTML", "CSS", "JavaScript", "React"],
       "links": {
-        "github": "https://github.com/example/portfolio-website",
-        "liveDemo": "https://example-portfolio.com"
+        "github": "https://github.com/shetdisha94/campaign",
+        "liveDemo": "https://shetdisha94.github.io/campaign/"
       }
     },
     {
@@ -28,8 +28,8 @@
         "SEO"
       ],
       "links": {
-        "github": "https://github.com/rameskum/ecommerce-admin",
-        "liveDemo": "https://ecommerce-admin.computerbyte.in"
+        "github": "https://github.com/shetdisha94/portfolio",
+        "liveDemo": "https://dishashet.com/"
       }
     }
   ]
